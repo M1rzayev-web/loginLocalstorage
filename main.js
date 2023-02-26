@@ -13,7 +13,7 @@ loginForm.addEventListener("submit", (e) => {
     username === localStorage.getItem("username") &&
     password === localStorage.getItem("password")
   ) {
-    window.location.href = "main.html";
+    window.location.href = "https://eatturkish.netlify.app/";
   } else {
     alert("Invalid username or password");
   }
